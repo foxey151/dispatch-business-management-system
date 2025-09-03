@@ -1,3 +1,19 @@
 {
-  "/page": "app/page.js"
+  "/rt2-panel/page": "app/rt2-panel/page.js",
+  "/page": "app/page.js",
+  "/dispatch-panel-2d/page": "app/dispatch-panel-2d/page.js",
+  "/hostess-schedule/page": "app/hostess-schedule/page.js",
+  "/tehai/page": "app/tehai/page.js",
+  "/employee-schedule/page": "app/employee-schedule/page.js",
+  "/hostess-ranking/page": "app/hostess-ranking/page.js",
+  "/income-slip/page": "app/income-slip/page.js",
+  "/expense-slip/page": "app/expense-slip/page.js",
+  "/sales-slip/page": "app/sales-slip/page.js",
+  "/management-list/page": "app/management-list/page.js",
+  "/daily-report/page": "app/daily-report/page.js",
+  "/summary-graph/page": "app/summary-graph/page.js",
+  "/employee-salary/page": "app/employee-salary/page.js",
+  "/accounting-summary/page": "app/accounting-summary/page.js",
+  "/interview-list/page": "app/interview-list/page.js",
+  "/part-time-salary/page": "app/part-time-salary/page.js"
 }

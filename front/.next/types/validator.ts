@@ -36,10 +36,106 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
 }
 
 
+// Validate ../../src/app/accounting-summary/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/accounting-summary/page.js")
+  handler satisfies AppPageConfig<"/accounting-summary">
+}
+
+// Validate ../../src/app/daily-report/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/daily-report/page.js")
+  handler satisfies AppPageConfig<"/daily-report">
+}
+
+// Validate ../../src/app/dispatch-panel-2d/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/dispatch-panel-2d/page.js")
+  handler satisfies AppPageConfig<"/dispatch-panel-2d">
+}
+
+// Validate ../../src/app/employee-salary/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/employee-salary/page.js")
+  handler satisfies AppPageConfig<"/employee-salary">
+}
+
+// Validate ../../src/app/employee-schedule/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/employee-schedule/page.js")
+  handler satisfies AppPageConfig<"/employee-schedule">
+}
+
+// Validate ../../src/app/expense-slip/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/expense-slip/page.js")
+  handler satisfies AppPageConfig<"/expense-slip">
+}
+
+// Validate ../../src/app/hostess-ranking/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/hostess-ranking/page.js")
+  handler satisfies AppPageConfig<"/hostess-ranking">
+}
+
+// Validate ../../src/app/hostess-schedule/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/hostess-schedule/page.js")
+  handler satisfies AppPageConfig<"/hostess-schedule">
+}
+
+// Validate ../../src/app/income-slip/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/income-slip/page.js")
+  handler satisfies AppPageConfig<"/income-slip">
+}
+
+// Validate ../../src/app/interview-list/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/interview-list/page.js")
+  handler satisfies AppPageConfig<"/interview-list">
+}
+
+// Validate ../../src/app/management-list/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/management-list/page.js")
+  handler satisfies AppPageConfig<"/management-list">
+}
+
 // Validate ../../src/app/page.tsx
 {
   const handler = {} as typeof import("../../src/app/page.js")
   handler satisfies AppPageConfig<"/">
+}
+
+// Validate ../../src/app/part-time-salary/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/part-time-salary/page.js")
+  handler satisfies AppPageConfig<"/part-time-salary">
+}
+
+// Validate ../../src/app/rt2-panel/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/rt2-panel/page.js")
+  handler satisfies AppPageConfig<"/rt2-panel">
+}
+
+// Validate ../../src/app/sales-slip/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/sales-slip/page.js")
+  handler satisfies AppPageConfig<"/sales-slip">
+}
+
+// Validate ../../src/app/summary-graph/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/summary-graph/page.js")
+  handler satisfies AppPageConfig<"/summary-graph">
+}
+
+// Validate ../../src/app/tehai/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/tehai/page.js")
+  handler satisfies AppPageConfig<"/tehai">
 }
 
 
