@@ -1,4 +1,7 @@
+'use client';
+
 import { BusinessCard } from "@/components/ui/business-card";
+import { useRouter } from "next/navigation";
 import { 
   Building, 
   Users, 
@@ -14,6 +17,31 @@ import {
 } from "lucide-react";
 
 export const CenterPanel = () => {
+  const router = useRouter();
+
+  const handleNavigation = (name: string) => {
+    const routeMap: { [key: string]: string } = {
+      "グループ台帳": "/group-ledger",
+      "店舗台帳": "/store-ledger",
+      "顧客台帳": "/customer-ledger",
+      "顧客ポイント": "/customer-points",
+      "ホステス台帳": "/hostess-ledger",
+      "スタッフ台帳": "/staff-ledger",
+      "週間ホステス出勤": "/weekly-hostess-attendance",
+      "地域区分": "/area-division",
+      "ホテル": "/hotel",
+      "有料道路": "/toll-road",
+      "燃料・エコ手当管理": "/fuel-eco-management",
+      "メディア管理": "/media-management",
+      "顧客車情報": "/customer-vehicle-info",
+      "派遣地区別交通費": "/dispatch-area-transport-fee"
+    };
+
+    const route = routeMap[name];
+    if (route) {
+      router.push(route);
+    }
+  };
   const sections = [
     {
       title: "D",
@@ -50,7 +78,8 @@ export const CenterPanel = () => {
               <BusinessCard 
                 key={item.name} 
                 variant="gray"
-                className="flex items-center gap-3 p-3 text-sm"
+                className="flex items-center gap-3 p-3 text-sm cursor-pointer hover:bg-opacity-80 transition-colors"
+                onClick={() => handleNavigation(item.name)}
               >
                 <item.icon className="w-4 h-4 flex-shrink-0" />
                 <span className="truncate">{item.name}</span>

@@ -42,10 +42,40 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
   handler satisfies AppPageConfig<"/accounting-summary">
 }
 
+// Validate ../../src/app/area-division/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/area-division/page.js")
+  handler satisfies AppPageConfig<"/area-division">
+}
+
+// Validate ../../src/app/customer-ledger/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/customer-ledger/page.js")
+  handler satisfies AppPageConfig<"/customer-ledger">
+}
+
+// Validate ../../src/app/customer-points/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/customer-points/page.js")
+  handler satisfies AppPageConfig<"/customer-points">
+}
+
+// Validate ../../src/app/customer-vehicle-info/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/customer-vehicle-info/page.js")
+  handler satisfies AppPageConfig<"/customer-vehicle-info">
+}
+
 // Validate ../../src/app/daily-report/page.tsx
 {
   const handler = {} as typeof import("../../src/app/daily-report/page.js")
   handler satisfies AppPageConfig<"/daily-report">
+}
+
+// Validate ../../src/app/dispatch-area-transport-fee/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/dispatch-area-transport-fee/page.js")
+  handler satisfies AppPageConfig<"/dispatch-area-transport-fee">
 }
 
 // Validate ../../src/app/dispatch-panel-2d/page.tsx
@@ -72,6 +102,24 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
   handler satisfies AppPageConfig<"/expense-slip">
 }
 
+// Validate ../../src/app/fuel-eco-management/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/fuel-eco-management/page.js")
+  handler satisfies AppPageConfig<"/fuel-eco-management">
+}
+
+// Validate ../../src/app/group-ledger/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/group-ledger/page.js")
+  handler satisfies AppPageConfig<"/group-ledger">
+}
+
+// Validate ../../src/app/hostess-ledger/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/hostess-ledger/page.js")
+  handler satisfies AppPageConfig<"/hostess-ledger">
+}
+
 // Validate ../../src/app/hostess-ranking/page.tsx
 {
   const handler = {} as typeof import("../../src/app/hostess-ranking/page.js")
@@ -82,6 +130,12 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
 {
   const handler = {} as typeof import("../../src/app/hostess-schedule/page.js")
   handler satisfies AppPageConfig<"/hostess-schedule">
+}
+
+// Validate ../../src/app/hotel/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/hotel/page.js")
+  handler satisfies AppPageConfig<"/hotel">
 }
 
 // Validate ../../src/app/income-slip/page.tsx
@@ -100,6 +154,12 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
 {
   const handler = {} as typeof import("../../src/app/management-list/page.js")
   handler satisfies AppPageConfig<"/management-list">
+}
+
+// Validate ../../src/app/media-management/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/media-management/page.js")
+  handler satisfies AppPageConfig<"/media-management">
 }
 
 // Validate ../../src/app/page.tsx
@@ -126,6 +186,18 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
   handler satisfies AppPageConfig<"/sales-slip">
 }
 
+// Validate ../../src/app/staff-ledger/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/staff-ledger/page.js")
+  handler satisfies AppPageConfig<"/staff-ledger">
+}
+
+// Validate ../../src/app/store-ledger/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/store-ledger/page.js")
+  handler satisfies AppPageConfig<"/store-ledger">
+}
+
 // Validate ../../src/app/summary-graph/page.tsx
 {
   const handler = {} as typeof import("../../src/app/summary-graph/page.js")
@@ -136,6 +208,18 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
 {
   const handler = {} as typeof import("../../src/app/tehai/page.js")
   handler satisfies AppPageConfig<"/tehai">
+}
+
+// Validate ../../src/app/toll-road/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/toll-road/page.js")
+  handler satisfies AppPageConfig<"/toll-road">
+}
+
+// Validate ../../src/app/weekly-hostess-attendance/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/weekly-hostess-attendance/page.js")
+  handler satisfies AppPageConfig<"/weekly-hostess-attendance">
 }
 
 
