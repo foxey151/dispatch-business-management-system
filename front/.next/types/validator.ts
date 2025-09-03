@@ -120,6 +120,12 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
   handler satisfies AppPageConfig<"/hostess-ledger">
 }
 
+// Validate ../../src/app/hostess-manager-list/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/hostess-manager-list/page.js")
+  handler satisfies AppPageConfig<"/hostess-manager-list">
+}
+
 // Validate ../../src/app/hostess-ranking/page.tsx
 {
   const handler = {} as typeof import("../../src/app/hostess-ranking/page.js")
@@ -174,6 +180,12 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
   handler satisfies AppPageConfig<"/part-time-salary">
 }
 
+// Validate ../../src/app/realtime-performance-summary/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/realtime-performance-summary/page.js")
+  handler satisfies AppPageConfig<"/realtime-performance-summary">
+}
+
 // Validate ../../src/app/rt2-panel/page.tsx
 {
   const handler = {} as typeof import("../../src/app/rt2-panel/page.js")
@@ -192,10 +204,28 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
   handler satisfies AppPageConfig<"/staff-ledger">
 }
 
+// Validate ../../src/app/store-customer-route-summary/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/store-customer-route-summary/page.js")
+  handler satisfies AppPageConfig<"/store-customer-route-summary">
+}
+
 // Validate ../../src/app/store-ledger/page.tsx
 {
   const handler = {} as typeof import("../../src/app/store-ledger/page.js")
   handler satisfies AppPageConfig<"/store-ledger">
+}
+
+// Validate ../../src/app/store-list/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/store-list/page.js")
+  handler satisfies AppPageConfig<"/store-list">
+}
+
+// Validate ../../src/app/store-media-usage-summary/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/store-media-usage-summary/page.js")
+  handler satisfies AppPageConfig<"/store-media-usage-summary">
 }
 
 // Validate ../../src/app/summary-graph/page.tsx
@@ -210,10 +240,22 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
   handler satisfies AppPageConfig<"/tehai">
 }
 
+// Validate ../../src/app/time-based-hostess-attendance/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/time-based-hostess-attendance/page.js")
+  handler satisfies AppPageConfig<"/time-based-hostess-attendance">
+}
+
 // Validate ../../src/app/toll-road/page.tsx
 {
   const handler = {} as typeof import("../../src/app/toll-road/page.js")
   handler satisfies AppPageConfig<"/toll-road">
+}
+
+// Validate ../../src/app/unlock-approval-list/page.tsx
+{
+  const handler = {} as typeof import("../../src/app/unlock-approval-list/page.js")
+  handler satisfies AppPageConfig<"/unlock-approval-list">
 }
 
 // Validate ../../src/app/weekly-hostess-attendance/page.tsx

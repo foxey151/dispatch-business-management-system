@@ -105,6 +105,41 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/group-ledger/page.js"
+    ],
+    "/store-list/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/store-list/page.js"
+    ],
+    "/hostess-manager-list/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/hostess-manager-list/page.js"
+    ],
+    "/store-customer-route-summary/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/store-customer-route-summary/page.js"
+    ],
+    "/time-based-hostess-attendance/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/time-based-hostess-attendance/page.js"
+    ],
+    "/unlock-approval-list/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/unlock-approval-list/page.js"
+    ],
+    "/store-media-usage-summary/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/store-media-usage-summary/page.js"
+    ],
+    "/fuel-eco-management/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/fuel-eco-management/page.js"
     ]
   }
 }
